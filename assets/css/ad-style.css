@@ -1,0 +1,83 @@
+.ad {
+	width: 100%;
+	font-size: .6em;
+	color: #999;
+	margin: 0 auto;
+}
+	.ad-wrap-970 {
+		width: 970px;
+		margin: 0 auto;
+		display: inline-block;
+	}
+	.ad-wrap-728 {
+		width: 728px;
+		margin: 0 auto;
+		display: none;
+	}
+	.ad-wrap-468 {
+		width: 468px;
+		margin: 0 auto;
+		display: none;
+	}
+	.ad-wrap-320 {
+		width: 320px;
+		margin: 0 auto;
+		display: none;
+	}
+	.ad-wrap-300 {
+		width: 300px;
+		margin: 0 auto;
+		display: none;
+	}
+
+		.ad-big-leaderboard {
+			width: 970px;
+			height: 90px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-leaderboard {
+			width: 728px;
+			height: 90px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-full-banner {
+			width: 468px;
+			height: 60px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-big-box {
+			width: 300px;
+			height: 250px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-button {
+			width: 120px;
+			height: 90px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-skyscrapper {
+			width: 120px;
+			height: 600px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-mobile-leaderboard {
+			width: 320px;
+			height: 100px;
+			display: block;
+			margin: 0 auto;
+		}
+		.ad-mobile-banner {
+			width: 320px;
+			height: 50px;
+			display: block;
+			margin: 0 auto;
+		}
+	.ad p {
+		padding-left: 1em;
+	}

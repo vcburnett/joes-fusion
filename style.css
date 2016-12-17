@@ -1,0 +1,316 @@
+/*
+Theme Name: Joe's Fusion
+Theme URI: https://vcburnett.com/
+Author: Victor Burnett
+Author URI: http://vcburnett.com/
+Description: Blog template for Joe's Fusion, the coolest food blog there is.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: food, blog, cooking, health, articles, interviews
+Text Domain: Joe's Fusion
+*/
+
+@import url("assets/css/reset.css");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Mr+De+Haviland');
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	background-color: #f5f5f5;
+}
+
+/* General Code */
+
+h1 {
+	font-family: 'Mr De Haviland', cursive;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+a {
+	color: #136e96;
+	text-decoration: underline;
+	-ms-transition: color .3s, background-color .3s, border-color .3s, text-shadow .3s;
+	transition: color .3s, background-color .3s, border-color .3s, text-shadow .3s;
+}
+	a:hover {
+		color: #c92e45;
+	}
+a.cta-blue {
+	color: #125688;
+	background-color: #f5f5f5;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	padding: .75em 1.25em;
+	border: 1px solid #125688;
+}
+	a.cta-blue:hover {
+		color: #fff;
+		text-shadow: 0 3px 2px rgba(10,60,82,.75);
+		background-color: #125688;
+		border-color: #125688;
+	}
+a.cta {
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	padding: .75em 1.25em;
+	border: 1px solid #999;
+}
+	a.cta:hover {
+		color: #fff;
+		text-shadow: 0 3px 2px rgba(13,113,151,.75);
+		background-color: #00aced;
+		border-color: #00aced;
+	}
+
+span.txt-cursive {
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 1.75em;
+	position: relative;
+	display: inline-block;
+	text-transform: none;
+	bottom: .055em;
+}
+
+
+/* Main Menu */
+aside {
+	width: 70px;
+	height: 100%;
+	background-color: rgba(0,0,0,.05);
+	display: block;
+	position: fixed;
+	z-index: 50;
+}
+	aside .aside-wrapper {
+		background-color: #c92e45;
+		padding-top: .75em;
+	}
+		.menu-logo a, nav a {
+			display: block;
+			padding: 8px 17px;
+		}
+		aside a svg {
+			fill: #ff94a4;
+			-ms-transition: fill .3s;
+			transition: fill .3s;
+		}
+			aside a svg:hover {
+				fill: #ffe2e6;
+			}
+				.menu-logo a svg:hover {
+					fill: #ffe384;
+				}
+		.jf-menu-title {
+			background-color: #c92e45;
+			width: 100%;
+			text-align: center;
+			display: block;
+			padding: 10em 0 .75em;
+		}
+			.jf-menu-title p {
+				color: #e96478;
+				font-size: .6em;
+				line-height: 1em;
+				text-transform: uppercase;
+			}
+
+.menu-div {
+	width: 100%;
+	border-top: 1px solid #b02a3e;
+	border-bottom: 1px solid #f24660;
+	margin: .5em 0;
+}
+
+/* Main Content */
+.wrapper {
+	width: 96%;
+	max-width: 1040px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+	.joes-logo {
+		width: 40%;
+		margin: 0 auto;
+		text-align: center;
+		padding: 2em 0;
+	}
+		.jf-logo {
+			width: 30%;
+			max-width: 60px;
+			display: block;
+			margin: 0 auto;
+		}
+		.joes-logo p {
+			font-weight: 300;
+			text-transform: uppercase;
+			color: #677089;
+			margin-top: .5em;
+		}
+
+	#hero {
+		width: 100%;
+		display: block;
+		text-align: center;
+		background-color: red;
+	}
+		#hero-content {
+			padding: 22em 0 1em;
+		}
+			#hero-content h1 {
+				font-size: 7em;
+				line-height: 1.25em;
+				color: #fff;
+				text-shadow: 0 3px 3px rgba(0,0,0,.4);
+			}
+			#hero-content .hero-text {
+				width: 50%;
+				color: #fff;
+				margin: 1em auto 0;
+				display: block;
+			}
+				#hero-content .hero-text p.hero-metas {
+					font-size: .75em;
+					color: #999;
+					margin-top: 1em;
+				}
+
+	a.CTA {
+		font-size: 1.1em;
+		line-height: 1.15em;
+		text-transform: uppercase;
+		color: #fff;
+		padding: 1.1em 4em;
+		background-color: #c92e45;
+		border-radius: 50px;
+		text-decoration: none;
+		display: inline-block;
+		position: relative;
+		top: 1.5em;
+		z-index: 10;
+	}
+		a.CTA:hover {
+			background-color: #136e96;
+		}
+
+/* Instagram Feed */
+.instagram {
+	width: 100%;
+	text-align: center;
+	padding: 5em 0;
+	display: table;
+	position: relative;
+}
+	.instagram-jf-logo {
+		width: 65px;
+		height: 65px;
+		padding: 7px;
+		border-radius: 50px;
+		background-color: rgba(255,255,255,.92);
+		border: 1px solid #fff;
+		box-shadow: 0 3px 2px rgba(0,0,0,.25);
+		display: inline-block;
+		position: absolute;
+		margin: -45px 0 0 -30px;
+	}
+	#instafeed {
+	}
+	#instafeed a {
+		display: block;
+		cursor: pointer;
+		width: 12.5%;
+		float: left;
+	}
+	.instagram a.cta-blue {
+		display: inline-block;
+		position: relative;
+		z-index: 1000;
+		margin: 0 auto;
+		top: -20px;
+	}
+	#instagram-buttons {
+		padding-top: 1em;
+	}
+		#instagram-buttons a:nth-child(2) {
+			margin: 0 .3em;
+		}
+
+/* Footer */
+footer {
+	width: 100%;
+	background-color: #ba243b;
+	text-align: center;
+}
+	.ft-links-section {
+		padding: 1.25em 0;
+	}
+		.ft-links {
+			display: inline-block;
+			margin-right: 2em;
+		}
+		.ft-links::last-child {
+			margin-right: 0;
+		}
+			.ft-links a {
+				font-weight: 300;
+				color: #ff94a4;
+				text-transform: uppercase;
+				text-decoration: none;
+				margin-right: 1em;
+			}
+			.ft-links a::last-child {
+				font-weight: 300;
+				color: #ff94a4;
+				text-transform: uppercase;
+				margin-right: 1em;
+			}
+	.ft-metas {
+		background-color: #c92e45;
+		color: #ff94a4;
+		font-size: .75em;
+		line-height: 1.15em;
+		padding: 4em 0;
+	}
+		.ft-logo {
+			width: 25%;
+			max-width: 60px;
+			display: inline-block;
+			margin-bottom: 2em;
+		}
+			.ft-logo svg {
+				fill: #ff94a4;
+			}
+		.ft-metas a {
+			color: #ff94a4;
+			margin: 0 .25em;
+		}
+			footer a:hover {
+				color: #ffe384;
+			}
+
+/* ---------- */
+/* RESPONSIVE */
+/* ---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
