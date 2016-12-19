@@ -24,9 +24,14 @@ html, body {
 
 /* General Code */
 
-h1 {
+h1, h2 {
 	font-family: 'Mr De Haviland', cursive;
 }
+	h2 {
+		font-size: 4.5em;
+		line-height: 1.15em;
+		margin-bottom: .15em;
+	}
 
 img {
 	width: 100%;
@@ -80,6 +85,20 @@ span.txt-cursive {
 	text-transform: none;
 	bottom: .055em;
 }
+
+.cta-dark, .cta-light {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: .75em 2em;
+	color: #666;
+	border: 1px solid #666;
+	margin-top: 1.5em;
+}
+	.cta-light {
+		color: #bfbfbf;
+		border-color: #ccc;
+	}
 
 
 /* Main Menu */
@@ -202,6 +221,56 @@ aside {
 		a.CTA:hover {
 			background-color: #136e96;
 		}
+
+.articles-wrapper {
+	width: 100%;
+}
+	.articles-wrapper article {
+		width: 94%;
+		max-width: 600px;
+		display: block;
+		margin: auto;
+	}
+		.art-recipe {
+			text-align: center;
+			position: relative;
+		}
+			.art-recipe .art-recipe-thumb {
+				width: 100%;
+			}
+			.art-recipe .art-recipe-text {
+				width: 75%;
+				min-width: 290px;
+				margin: 0 auto;
+			}
+
+#franchises {
+	width: 90%;
+	max-width: 1040px;
+	text-align: center;
+	display: block;
+	margin: 5em auto 6em;
+}
+	.a-franchise {
+		width: 30%;
+		display: inline-block;
+	}
+		.a-franchise:nth-child(3) {
+			margin: 0 4%;
+		}
+		.franchise-thumb {
+			width: 75%;
+			display: inline-block;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.a-franchise h3 {
+			line-height: 1.25em;
+			text-transform: uppercase;
+			color: #677089;
+			margin: 1em 0 .5em;
+		}
+
 
 /* Instagram Feed */
 .instagram {

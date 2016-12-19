@@ -33,12 +33,183 @@
             <a href="javascript:void(0);" class="CTA">View the recipe</a>
         </div>
 
+        <div class="top-actions">
+            <div class="ta-wrapper">
+                <div class="ta-text">
+                    <p>Join us</p>
+                    <p>on social media</p>
+                </div>
+                <div class="ta-social-wrap">
+                    <a href="" id="ta-facebook"></a>
+                    <a href="" id="ta-twiiter"></a>
+                    <a href="" id="ta-pinterest"></a>
+                    <a href="" id="ta-instagram"></a>
+                </div>
+            </div>
+            <div class="ta-wrapper">
+                <div class="ta-text">
+                    <p>Send us</p>
+                    <p>your</p>
+                    <p>recipe</p>
+                </div>
+                <a href="">Upload deliciousness</a>
+                <div class="txt-recipe-legal">
+                    <p>No information youprovide will ever be shared with anyone.</p>
+                </div>
+            </div>
+            <div class="ta-wrapper">
+                <div class="ta-text">
+                    <p><span class="txt0cursive">Subscribe</span> to our newsletter</p>
+                </div>
+                <form>
+                    <input type="text"><a href="javascript:void(0);"></a>
+                </form>
+                <a href="javascript:void(0);">What do you get with our newsletters?</a>
+                <div class="txt-recipe-legal">
+                    <p>No information youprovide will ever be shared with anyone.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Ad space -->
         <?php //include("assets/modules/ads.php"); ?>
         <!-- end/ Ad space -->
 
+        <div class="articles-wrapper">
+
+            <!-- Article type recipe -->
+            <article class="art-recipe">
+                <div class="art-recipe-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Eggplant parmegiana</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+            <!-- Article type interview/profile -->
+            <article class="art-interview">
+                <div class="art-interview-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Astrogildo Sandersonnhy</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+            <!-- Article type recipe -->
+            <article class="art-recipe">
+                <div class="art-recipe-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Eggplant parmegiana</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+            <!-- Article type restaurant -->
+            <article class="art-restaurant">
+                <div class="art-restaurant-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Name of the Restaurant</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+            <!-- Article type recipe -->
+            <article class="art-recipe">
+                <div class="art-recipe-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Eggplant parmegiana</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+            <!-- Article type recipe -->
+            <article class="art-recipe">
+                <div class="art-recipe-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Eggplant parmegiana</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+            <!-- Article type recipe -->
+            <article class="art-recipe">
+                <div class="art-recipe-thumb">
+                    <img src="" alt="">
+                </div>
+                <div class="art-recipe-text">
+                    <h2>Eggplant parmegiana</h2>
+                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
+                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="pagination">
+            <a href="javascript:void(0);" class="cta-light">Latest</a>
+            <a href="javascript:void(0);" class="cta-light">Older</a>
+        </div>
+
     </div>
     <!-- end/ WRAPPER Content -->
+
+    <section id="franchises">
+
+        <h4>Joe's Fusion's franchises</h4>
+    
+        <div class="a-franchise">
+            <div class="franchise-thumb">
+                <img src="assets/images/_temps/franchises.jpg" alt="Franchise name">
+            </div>
+            <h3>Name of the franchise</h3>
+            <p>Praesent eros mi, ultrices hendrerit ornare in, euismod vel nisl.</p>
+            <a href="javascript:void(0);" class="cta-light">Check it out</a>
+        </div>
+    
+        <div class="a-franchise">
+            <div class="franchise-thumb">
+                <img src="assets/images/_temps/franchises.jpg" alt="Franchise name">
+            </div>
+            <h3>Name of the franchise</h3>
+            <p>Praesent eros mi, ultrices hendrerit ornare in, euismod vel nisl.</p>
+            <a href="javascript:void(0);" class="cta-light">Check it out</a>
+        </div>
+    
+        <div class="a-franchise">
+            <div class="franchise-thumb">
+                <img src="assets/images/_temps/franchises.jpg" alt="Franchise name">
+            </div>
+            <h3>Name of the franchise</h3>
+            <p>Praesent eros mi, ultrices hendrerit ornare in, euismod vel nisl.</p>
+            <a href="javascript:void(0);" class="cta-light">Check it out</a>
+        </div>
+
+    </section>
 
 	<?php include_once("assets/modules/social.php"); ?>
 
