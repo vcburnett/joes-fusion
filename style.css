@@ -155,7 +155,6 @@ aside {
 	width: 96%;
 	max-width: 1040px;
 	margin: 0 auto;
-	background-color: #fff;
 }
 
 	.joes-logo {
@@ -181,7 +180,9 @@ aside {
 		width: 100%;
 		display: block;
 		text-align: center;
-		background-color: red;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
 	}
 		#hero-content {
 			padding: 22em 0 1em;
@@ -229,19 +230,65 @@ aside {
 		width: 94%;
 		max-width: 600px;
 		display: block;
-		margin: auto;
+		margin: 7em auto;
 	}
+		p.article-metas {
+			color: #999;
+			font-size: .75em;
+			line-height: 1.15em;
+			margin: 1em 0 0;
+		}
+			p.article-metas a {
+				color: #999;
+			}
 		.art-recipe {
 			text-align: center;
 			position: relative;
 		}
 			.art-recipe .art-recipe-thumb {
 				width: 100%;
+				margin: 0 0 1em;
 			}
 			.art-recipe .art-recipe-text {
 				width: 75%;
 				min-width: 290px;
 				margin: 0 auto;
+			}
+		.articles-wrapper article.art-interview {
+			text-align: right;
+			display: table;
+		}
+			.art-interview-thumb {
+				width: 30%;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: cover;
+				display: block;
+				border-radius: 50%;
+				overflow: hidden;
+				float: right;
+			}
+			.art-interview-text {
+				width: 67%;
+				display: block;
+				float: left;
+			}
+		.articles-wrapper article.art-restaurant {
+			position: relative;
+		}
+			.art-restaurant-thumb {
+				width: 50%;
+				display: inline-block;
+				vertical-align: top;
+				position: absolute;
+			}
+			.art-restaurant-text {
+				width: 65%;
+				display: block;
+				margin-left: 39%;
+				padding-top: 33%;
+				position: relative;
+				z-index: 10;
 			}
 
 #franchises {
@@ -251,6 +298,14 @@ aside {
 	display: block;
 	margin: 5em auto 6em;
 }
+	#franchises h4 {
+		font-size: 1.5em;
+		line-height: 1.25em;
+		font-weight: 300;
+		color: #a4a8b2;
+		text-transform: uppercase;
+		margin-bottom: 1.25em;
+	}
 	.a-franchise {
 		width: 30%;
 		display: inline-block;

@@ -22,7 +22,7 @@
             </div>
             <p>Joe's Fusion</p>
         </div>
-        <div id="hero">
+        <div id="hero" style="background-image:url('assets/images/_examples/hero-image.jpg');">
             <div id="hero-content">
                 <h1>Beef Wellington</h1>
                 <div class="hero-text">
@@ -80,7 +80,7 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="" alt="">
+                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -93,9 +93,9 @@
             <!-- Article type interview/profile -->
             <article class="art-interview">
                 <div class="art-interview-thumb">
-                    <img src="" alt="">
+                    <img src="assets/images/_examples/image-interview.jpg" alt="Interview example">
                 </div>
-                <div class="art-recipe-text">
+                <div class="art-interview-text">
                     <h2>Astrogildo Sandersonnhy</h2>
                     <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
                     <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
@@ -106,7 +106,7 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="" alt="">
+                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -118,10 +118,10 @@
 
             <!-- Article type restaurant -->
             <article class="art-restaurant">
-                <div class="art-restaurant-thumb">
-                    <img src="" alt="">
+                <div class="art-restaurant-thumb" style="background-image: url('assets/images/_examples/image-restaurant.jpg')">
+                    <img src="assets/images/image-restaurant-triangle.png" alt="Restaurant review">
                 </div>
-                <div class="art-recipe-text">
+                <div class="art-restaurant-text">
                     <h2>Name of the Restaurant</h2>
                     <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
                     <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
@@ -132,7 +132,7 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="" alt="">
+                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -145,7 +145,7 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="" alt="">
+                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -158,7 +158,7 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="" alt="">
+                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
