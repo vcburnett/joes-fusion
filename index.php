@@ -118,8 +118,9 @@
 
             <!-- Article type restaurant -->
             <article class="art-restaurant">
-                <div class="art-restaurant-thumb" style="background-image: url('assets/images/_examples/image-restaurant.jpg')">
-                    <img src="assets/images/image-restaurant-triangle.png" alt="Restaurant review">
+                <div class="art-restaurant-thumb">
+                    <div class="art-restaurant-thumb-cover"></div>
+                    <img src="assets/images/_examples/image-restaurant.jpg" alt="Name of restaurant">
                 </div>
                 <div class="art-restaurant-text">
                     <h2>Name of the Restaurant</h2>
