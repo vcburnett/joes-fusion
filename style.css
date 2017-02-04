@@ -314,6 +314,20 @@ aside {
 				position: relative;
 				z-index: 10;
 			}
+
+	a.btn-image img {
+		opacity: .65;
+		-webkit-transition: opacity .3s;
+		transition: opacity .3s;
+	}
+		a.btn-image:hover img {
+			opacity: 1;
+		}
+	.art-interview-thumb a.btn-image img {
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
 	.pagination {
 		width: 100%;
 		text-align: center;

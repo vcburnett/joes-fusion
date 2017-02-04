@@ -80,7 +80,9 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    <a href="javascript:void(0);" class="btn-image">
+                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    </a>
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -93,7 +95,9 @@
             <!-- Article type interview/profile -->
             <article class="art-interview">
                 <div class="art-interview-thumb">
-                    <img src="assets/images/_examples/image-interview.jpg" alt="Interview example">
+                    <a href="javascript:void(0);" class="btn-image">
+                        <img src="assets/images/_examples/image-interview.jpg" alt="Interview example">
+                    </a>
                 </div>
                 <div class="art-interview-text">
                     <h2>Astrogildo Sandersonnhy</h2>
@@ -106,7 +110,9 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    <a href="javascript:void(0);" class="btn-image">
+                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    </a>
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -119,7 +125,9 @@
             <!-- Article type restaurant -->
             <article class="art-restaurant">
                 <div class="art-restaurant-thumb">
-                    <div class="art-restaurant-thumb-cover"></div>
+                    <a href="javascript:void(0);" class="btn-image">
+                        <div class="art-restaurant-thumb-cover"></div>
+                    </a>
                     <img src="assets/images/_examples/image-restaurant.jpg" alt="Name of restaurant">
                 </div>
                 <div class="art-restaurant-text">
@@ -133,7 +141,9 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    <a href="javascript:void(0);" class="btn-image">
+                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    </a>
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -146,7 +156,9 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    <a href="javascript:void(0);" class="btn-image">
+                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    </a>
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
@@ -159,7 +171,9 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    <a href="javascript:void(0);" class="btn-image">
+                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
+                    </a>
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
