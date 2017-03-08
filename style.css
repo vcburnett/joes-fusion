@@ -41,7 +41,7 @@ img, svg {
 
 a {
 	color: #136e96;
-	text-decoration: underline;
+	text-decoration: none;
 	-ms-transition: color .3s, background-color .3s, border-color .3s, text-shadow .3s;
 	transition: color .3s, background-color .3s, border-color .3s, text-shadow .3s;
 }
@@ -230,6 +230,7 @@ aside {
 	text-align: center;
 }
 	.ta-wrapper {
+		color: #666;
 		width: 48%;
 		display: inline-block;
 		text-align: left;
@@ -238,7 +239,10 @@ aside {
 			margin: 0 3% 0 0;
 		}
 	#sec-join-us {
-		
+		width: 100%;
+		max-width: 360px;
+		display: inline-block;
+		vertical-align: top;
 	}
 		#sec-join-us .ta-text {
 			display: inline-block;
@@ -253,7 +257,7 @@ aside {
 			}
 		#sec-join-us .ta-social-wrap {
 			display: inline-block;
-			padding: 0 0 0 2em;
+			padding: 1.9em 0 0 1em;
 			vertical-align: top;
 		}
 			#sec-join-us .ta-social-wrap a {
@@ -289,8 +293,45 @@ aside {
 					background-color: #111;
 				}
 	#sec-newsletter {
-		
+		width: 100%;
+		max-width: 330px;
+		display: inline-block;
+		vertical-align: top;
 	}
+		#sec-newsletter .ta-text .txt-cursive {
+			font-size: 2.5em;
+			line-height: 1em;
+		}
+		#sec-newsletter form input {
+			width: 16em;
+			font-size: 1.25em;
+			line-height: 1.15em;
+			background-color: #fff;
+			border: none;
+			border-bottom: 1px solid #ccc;
+			padding: .55em .5em;
+			display: inline-block;
+			vertical-align: top;
+		}
+		#sec-newsletter form a {
+			width: 40px;
+			border: 1px solid #999;
+			background-color: rgba(19,110,150,0);
+			display: inline-block;
+			vertical-align: top;
+		}
+			#sec-newsletter form a svg {
+				color: #ccc;
+				width: 100%;
+				fill: #999;
+			}
+			#sec-newsletter form a:hover {
+				border-color: rgba(19,110,150,1);
+				background-color: rgba(19,110,150,1);
+			}
+				#sec-newsletter form a:hover svg {
+					fill: #fff;
+				}
 
 .articles-wrapper {
 	width: 100%;
@@ -310,6 +351,9 @@ aside {
 			p.article-metas a {
 				color: #999;
 			}
+				p.article-metas a:hover {
+					color: #c92e45;
+				}
 		.art-recipe {
 			text-align: center;
 			position: relative;
