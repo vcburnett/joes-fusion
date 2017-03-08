@@ -33,7 +33,7 @@ h1, h2 {
 		margin-bottom: .15em;
 	}
 
-img, svg {
+img {
 	width: 100%;
 	height: auto;
 	display: block;
@@ -226,71 +226,16 @@ aside {
 .top-actions {
 	width: 100%;
 	display: block;
+	background-color: red;
 	margin-top: 4em;
-	text-align: center;
 }
 	.ta-wrapper {
-		width: 48%;
+		width: 30%;
 		display: inline-block;
-		text-align: left;
 	}
-		.ta-wrapper:first-child {
-			margin: 0 3% 0 0;
+		.ta-wrapper:nth-child(2) {
+			margin: 0 4.5%;
 		}
-	#sec-join-us {
-		
-	}
-		#sec-join-us .ta-text {
-			display: inline-block;
-			vertical-align: top;
-		}
-			#sec-join-us .ta-text p:first-child {
-				font-family: 'Mr De Haviland', cursive;
-				font-size: 2.75em;
-			}
-			#sec-join-us .ta-text p:last-child {
-				padding-left: 1em;
-			}
-		#sec-join-us .ta-social-wrap {
-			display: inline-block;
-			padding: 0 0 0 2em;
-			vertical-align: top;
-		}
-			#sec-join-us .ta-social-wrap a {
-				width: 50px;
-				margin-right: .25em;
-				display: inline-block;
-				background-color: #ddd;
-				border-radius: 50%;
-				padding: 12px;
-			}
-			#sec-join-us .ta-social-wrap a#ta-facebook {
-				
-			}
-				#sec-join-us .ta-social-wrap a#ta-facebook:hover {
-					background-color: #3b5998;
-				}
-			#sec-join-us .ta-social-wrap a#ta-twitter {
-				
-			}
-				#sec-join-us .ta-social-wrap a#ta-twitter:hover {
-					background-color: #4099FF;
-				}
-			#sec-join-us .ta-social-wrap a#ta-pinterest {
-				
-			}
-				#sec-join-us .ta-social-wrap a#ta-pinterest:hover {
-					background-color: #bd081c;
-				}
-			#sec-join-us .ta-social-wrap a#ta-instagram {
-				
-			}
-				#sec-join-us .ta-social-wrap a#ta-instagram:hover {
-					background-color: #111;
-				}
-	#sec-newsletter {
-		
-	}
 
 .articles-wrapper {
 	width: 100%;
@@ -534,7 +479,7 @@ footer {
 /* ---------- */
 
 @media screen and (max-width:768px) {
-
+	
 }
 
 

@@ -12,7 +12,9 @@
 
 <body>
 
+<!--
     <?php include_once("assets/modules/main-menu.php"); ?>
+-->
 
     <!-- WRAPPER Content -->
     <div class="wrapper">
@@ -34,27 +36,46 @@
         </div>
 
         <div class="top-actions">
-            <div class="ta-wrapper" id="sec-join-us">
+            <div class="ta-wrapper">
                 <div class="ta-text">
                     <p>Join us</p>
                     <p>on social media</p>
                 </div>
                 <div class="ta-social-wrap">
-                    <a href="https://www.facebook.com/joesfusion/" target="_blank" id="ta-facebook"><img src="assets/images/svg-facebook.svg" alt="Joe's Fusion Facebook"></a>
-                    <a href="https://twitter.com/JoesFusionMag/" target="_blank" id="ta-twitter"><img src="assets/images/svg-twitter.svg" alt="Joe's Fusion Twitter"></a>
-                    <a href="https://www.pinterest.com/joesfusion/" target="_blank" id="ta-pinterest"><img src="assets/images/svg-pinterest.svg" alt="Joe's Fusion Pinterest"></a>
-                    <a href="https://www.instagram.com/joesfusion/" target="_blank" id="ta-instagram"><img src="assets/images/svg-instagram.svg" alt="Joe's Fusion Instagram"></a>
+                    <a href="" id="ta-facebook"></a>
+                    <a href="" id="ta-twiiter"></a>
+                    <a href="" id="ta-pinterest"></a>
+                    <a href="" id="ta-instagram"></a>
                 </div>
             </div>
-            <div class="ta-wrapper" id="sec-newsletter">
+            <div class="ta-wrapper">
                 <div class="ta-text">
-                    <p><span class="txt-cursive">Subscribe</span> to our newsletter</p>
+                    <p>Send us</p>
+                    <p>your</p>
+                    <p>recipe</p>
+                </div>
+                <a href="">Upload deliciousness</a>
+                <div class="txt-recipe-legal">
+                    <p>No information youprovide will ever be shared with anyone.</p>
+                </div>
+            </div>
+            <div class="ta-wrapper">
+                <div class="ta-text">
+                    <p><span class="txt0cursive">Subscribe</span> to our newsletter</p>
                 </div>
                 <form>
                     <input type="text"><a href="javascript:void(0);"></a>
                 </form>
+                <a href="javascript:void(0);">What do you get with our newsletters?</a>
+                <div class="txt-recipe-legal">
+                    <p>No information youprovide will ever be shared with anyone.</p>
+                </div>
             </div>
         </div>
+
+        <!-- Ad space -->
+        <?php //include("assets/modules/ads.php"); ?>
+        <!-- end/ Ad space -->
 
         <div class="articles-wrapper">
 
