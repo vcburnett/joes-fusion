@@ -12,7 +12,9 @@
 
 <body>
 
+    <!--
     <?php include_once("assets/modules/main-menu.php"); ?>
+    -->
 
     <!-- WRAPPER Content -->
     <div class="wrapper">
@@ -99,21 +101,6 @@
                 </div>
             </article>
 
-            <!-- Article type recipe -->
-            <article class="art-recipe">
-                <div class="art-recipe-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
-                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
-                    </a>
-                </div>
-                <div class="art-recipe-text">
-                    <h2>Eggplant parmegiana</h2>
-                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
-                </div>
-            </article>
-
             <!-- Article type restaurant -->
             <article class="art-restaurant">
                 <div class="art-restaurant-thumb">
@@ -124,51 +111,6 @@
                 </div>
                 <div class="art-restaurant-text">
                     <h2>Name of the Restaurant</h2>
-                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
-                </div>
-            </article>
-
-            <!-- Article type recipe -->
-            <article class="art-recipe">
-                <div class="art-recipe-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
-                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
-                    </a>
-                </div>
-                <div class="art-recipe-text">
-                    <h2>Eggplant parmegiana</h2>
-                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
-                </div>
-            </article>
-
-            <!-- Article type recipe -->
-            <article class="art-recipe">
-                <div class="art-recipe-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
-                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
-                    </a>
-                </div>
-                <div class="art-recipe-text">
-                    <h2>Eggplant parmegiana</h2>
-                    <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
-                </div>
-            </article>
-
-            <!-- Article type recipe -->
-            <article class="art-recipe">
-                <div class="art-recipe-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
-                        <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
-                    </a>
-                </div>
-                <div class="art-recipe-text">
-                    <h2>Eggplant parmegiana</h2>
                     <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
                     <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
                     <a href="javascript:void(0);" class="cta-dark">Read more</a>
