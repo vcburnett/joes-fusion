@@ -1,3 +1,5 @@
+<link rel="SHORTCUT ICON" href="assets/images/joes-fusion-favicon.ico"/>
+
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -7,8 +9,8 @@
 <script type="text/javascript">
 	var userFeed = new Instafeed({
     get: 'user',
-    userId: '15710897',
-    accessToken: '15710897.1677ed0.28bb832903894d2b81540726891ad8fd',
+    userId: '559722343',
+    accessToken: '559722343.1677ed0.2513afc0ba0f4fbda33a0a2cd46d3d5e',
     template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
     limit: 8,
     resolution: "standard_resolution"

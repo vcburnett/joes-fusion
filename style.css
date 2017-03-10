@@ -103,6 +103,14 @@ span.txt-cursive {
 		color: #bfbfbf;
 		border-color: #ccc;
 	}
+	.cta-dark:hover, .cta-light:hover {
+		color: #c92e45;
+		border-color: #c92e45;
+	}
+		.cta-dark:hover {
+			color: #fff;
+			background-color: #c92e45;
+		}
 
 
 /* Main Menu */
@@ -154,31 +162,38 @@ aside {
 	margin: .5em 0;
 }
 
+/* Logo */
+.joes-logo {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 0;
+	position: absolute;
+	top: 0;
+}
+	.jf-logo {
+		width: 30%;
+		max-width: 60px;
+		display: block;
+		margin: 0 auto;
+	}
+	.joes-logo p {
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #677089;
+		margin-top: .5em;
+	}
+		.jf-logo-scroll {
+			
+		}
+
 /* Main Content */
 .wrapper {
 	width: 96%;
 	max-width: 1040px;
 	margin: 0 auto;
+	padding-top: 10.5em;
 }
-
-	.joes-logo {
-		width: 40%;
-		margin: 0 auto;
-		text-align: center;
-		padding: 2em 0;
-	}
-		.jf-logo {
-			width: 30%;
-			max-width: 60px;
-			display: block;
-			margin: 0 auto;
-		}
-		.joes-logo p {
-			font-weight: 300;
-			text-transform: uppercase;
-			color: #677089;
-			margin-top: .5em;
-		}
 
 	#hero {
 		width: 100%;
@@ -473,6 +488,12 @@ aside {
 			display: inline-block;
 			border-radius: 50%;
 			overflow: hidden;
+			vertical-align: top;
+		}
+		.franchise-content {
+			width: 100%;
+			display: inline-block;
+			vertical-align: top;
 		}
 		.a-franchise h3 {
 			line-height: 1.25em;
@@ -503,6 +524,9 @@ aside {
 		margin: -45px 0 0 -30px;
 	}
 	#instafeed {
+		width: 100%;
+		display: table;
+		background-color: #eee;
 	}
 	#instafeed a {
 		display: block;
@@ -517,6 +541,10 @@ aside {
 		margin: 0 auto;
 		top: -20px;
 	}
+		.instagram a.cta-blue:hover {
+			background-color: #111;
+			border-color: #111;
+		}
 	#instagram-buttons {
 		padding-top: 1em;
 	}
@@ -526,6 +554,22 @@ aside {
 		#instagram-buttons a:nth-child(2) {
 			margin: 0 .3em .5em;
 		}
+			#instagram-buttons a#ft-btn-instagram:hover {
+				background-color: #111;
+				border-color: #111;
+			}
+			#instagram-buttons a#ft-btn-facebook:hover {
+				background-color: #3b5998;
+				border-color: #3b5998;
+			}
+			#instagram-buttons a#ft-btn-twitter:hover {
+				background-color: #0084b4;
+				border-color: #0084b4;
+			}
+			#instagram-buttons a#ft-btn-pinterest:hover {
+				background-color: #C92228;
+				border-color: #C92228;
+			}
 
 /* Footer */
 footer {
@@ -540,7 +584,7 @@ footer {
 			display: inline-block;
 			margin-right: 2em;
 		}
-		.ft-links::last-child {
+		.ft-links:last-child {
 			margin-right: 0;
 		}
 			.ft-links a {
@@ -550,18 +594,15 @@ footer {
 				text-decoration: none;
 				margin-right: 1em;
 			}
-			.ft-links a::last-child {
-				font-weight: 300;
-				color: #ff94a4;
-				text-transform: uppercase;
-				margin-right: 1em;
+			.ft-links a:last-child {
+				margin-right: 0;
 			}
 	.ft-metas {
 		background-color: #c92e45;
 		color: #ff94a4;
 		font-size: .75em;
-		line-height: 1.15em;
-		padding: 4em 0;
+		line-height: 1.5em;
+		padding: 4em 0 2em;
 	}
 		.ft-logo {
 			width: 25%;
@@ -580,9 +621,27 @@ footer {
 				color: #ffe384;
 			}
 
+
+.desktop-only {
+	display: block !important;
+}
+.mobile-only {
+	display: none !important;
+}
+
 /* ---------- */
 /* RESPONSIVE */
 /* ---------- */
+
+@media screen and (max-width: 800px) {
+	.ft-links:nth-child(2) {
+		margin-right: 0;
+	}
+	.ft-links:last-child {
+		display: block;
+		margin-top: .3em;
+	}
+}
 
 @media screen and (max-width: 768px) {
 	h2 {
@@ -642,9 +701,94 @@ footer {
 			width: 17em;
 		}
 
+	#franchises {
+		width: 94%;
+		text-align: left;
+	}
+		#franchises h4 {
+			font-size: 1.5em;
+			line-height: 1.25em;
+			margin-bottom: 1.25em;
+		}
+		.a-franchise {
+			width: 100%;
+			display: block;
+			margin-bottom: 1.25em;
+		}
+			.franchise-thumb {
+				width: 34%;
+				overflow: hidden;
+				margin-right: 3%;
+			}
+			.franchise-content {
+				width: 62%;
+				padding-top: 1em;
+			}
+			.a-franchise:nth-child(3) {
+				margin: 0 0 1.25em 0;
+				display: table;
+			}
+				.a-franchise:nth-child(3) .franchise-thumb {
+					float: right;
+					clear: right;
+					margin: 0 0 0 3%;
+				}
+				.a-franchise:nth-child(3) .franchise-content {
+					text-align: right;
+				}
+
+	.desktop-only {
+		display: none !important;
+	}
+	.mobile-only {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.franchise-content {
+		padding-top: .6em;
+	}
+
+	.ft-links:nth-child(1) {
+		margin-right: 0;
+		display: block;
+	}
+	.ft-links:nth-child(2) {
+		display: block;
+		margin-top: .3em;
+	}
+	.ft-links:last-child {
+		display: block;
+		margin-top: .3em;	}
+
 }
 
 @media screen and (max-width: 500px) {
+	#hero-content {
+		padding: 8em 0 1em;
+	}
+		#hero-content h1 {
+			font-size: 4.5em;
+			line-height: 1.15em;
+		}
+		h2 {
+			font-size: 3.5em;
+			line-height: .8em;
+			margin-bottom: .4em;
+		}
+			#hero-content .hero-text {
+				width: 90%;
+			}
+
+	.art-restaurant-text {
+		margin-left: 34%;
+	}
+
+	.franchise-content {
+		padding-top: .0;
+	}
+
 	#instafeed a {
 		width: 50%;
 	}
@@ -652,6 +796,17 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
+	#sec-join-us {
+		width: 240px;
+		margin: 0 auto 2em;
+	}
+	#sec-newsletter {
+		width: 310px;
+		margin: 0 auto;
+	}
+		#sec-newsletter form input {
+			width: 15em;
+		}
 
 }
 

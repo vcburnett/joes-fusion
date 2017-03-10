@@ -5,10 +5,10 @@
 		</svg>
 	</div>
 	<div id="instafeed"></div>
-	<a href="https://www.instagram.com/joesfusion/" target="_blank" class="cta-blue">Joe’s Fusion <span class="txt-cursive">on</span> Instagram</a>
+	<a href="https://www.instagram.com/joesfusion/" target="_blank" class="cta-blue" id="ft-btn-instagram">Joe’s Fusion <span class="txt-cursive">on</span> Instagram</a>
 	<div id="instagram-buttons">
-		<a href="https://www.facebook.com/joesfusion/" target="_blank" class="cta">Joe’s Fusion <span class="txt-cursive">on</span> Facebook</a>
-		<a href="https://twitter.com/JoesFusionMag/" target="_blank" class="cta">Joe’s Fusion <span class="txt-cursive">on</span> Twitter</a>
-		<a href="https://www.pinterest.com/joesfusion/" target="_blank" class="cta">Joe’s Fusion <span class="txt-cursive">on</span> Pinterest</a>
+		<a href="https://www.facebook.com/joesfusion/" target="_blank" class="cta" id="ft-btn-facebook">Joe’s Fusion <span class="txt-cursive">on</span> Facebook</a>
+		<a href="https://twitter.com/JoesFusionMag/" target="_blank" class="cta" id="ft-btn-twitter">Joe’s Fusion <span class="txt-cursive">on</span> Twitter</a>
+		<a href="https://www.pinterest.com/joesfusion/" target="_blank" class="cta" id="ft-btn-pinterest">Joe’s Fusion <span class="txt-cursive">on</span> Pinterest</a>
 	</div>
 </div>
