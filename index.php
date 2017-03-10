@@ -11,9 +11,7 @@
 
 <body>
 
-    <!--
-    <?php include_once("assets/modules/main-menu.php"); ?>
-    -->
+    <?php include_once("assets/modules/main-menu.php"); ?>\
     
     <div class="joes-logo">
         <div class="jf-logo">

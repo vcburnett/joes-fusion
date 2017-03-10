@@ -168,8 +168,11 @@ aside {
 	margin: 0 auto;
 	text-align: center;
 	padding: 2em 0;
-	position: absolute;
+	position: fixed;
 	top: 0;
+	z-index: 25;
+	-webkit-transition: padding .5s, background-color .5s, box-shadow .5s;
+	transition: padding .5s, background-color .5s, box-shadow .5s;
 }
 	.jf-logo {
 		width: 30%;
@@ -182,10 +185,18 @@ aside {
 		text-transform: uppercase;
 		color: #677089;
 		margin-top: .5em;
+		overflow: hidden;
+		-webkit-transition: height .5s;
+		transition: height .5s;
 	}
-		.jf-logo-scroll {
-			
+		.joes-logo-scroll {
+			background-color: #fafafa;
+			padding: .5em 0;
+			box-shadow: 0 3px 4px rgba(0,0,0,.09);
 		}
+			.joes-logo-scroll p {
+				height: 0;
+			}
 
 /* Main Content */
 .wrapper {
@@ -652,15 +663,6 @@ footer {
 		width: 100%;
 		margin: 0;
 	}
-
-		.joes-logo {
-			width: 60%;
-			padding: 1em 0;
-		}
-			.jf-logo {
-				width: 30%;
-				max-width: 60px;
-			}
 
 	.top-actions {
 		width: 96%;

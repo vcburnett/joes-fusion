@@ -4,7 +4,9 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/instafeed.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
 
 <script type="text/javascript">
 	var userFeed = new Instafeed({
