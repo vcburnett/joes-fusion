@@ -184,6 +184,16 @@ aside {
 	margin: .5em 0;
 }
 
+/* Mobile Menu */
+#mobile-menu {
+	width: 100vw;
+	height: 100vh;
+	background-color: #c92e45;
+	display: block;
+	position: fixed;
+	z-index: 50;
+}
+
 /* Logo */
 .joes-logo {
 	width: 100%;
@@ -570,7 +580,7 @@ aside {
 	.instagram a.cta-blue {
 		display: inline-block;
 		position: relative;
-		z-index: 1000;
+		z-index: 40;
 		margin: 0 auto;
 		top: -20px;
 	}
@@ -666,7 +676,11 @@ footer {
 /* RESPONSIVE */
 /* ---------- */
 
-@media screen and (max-width: 890px;) {
+@media screen and (max-width: 880px) {
+
+	aside {
+		display: none !important;
+	}
 
 }
 
@@ -681,6 +695,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
 	h2 {
 		line-height: .95em;
 	}
