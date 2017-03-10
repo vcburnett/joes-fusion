@@ -6,6 +6,10 @@ $( document ).ready(function() {
 
 	var joesLogo = $(".joes-logo");
 
+	var aside = $("aside .aside-wrapper");
+	var menuClosedW = 70;
+	var menuOpenW = 210;
+
 	function updateElements() {
 		console.log("moved!");
 
@@ -15,6 +19,13 @@ $( document ).ready(function() {
 	browserWindow.on("resize", function() {
 		updateElements();
 	}).trigger("resize");
+
+	// Menu
+	aside.hover(function() {
+		$(this).css("width", menuOpenW);
+	}, function() {
+		$(this).css("width", menuClosedW);
+	});
 
 	// ON SCROLL
 	$(window).on('scroll', function() {

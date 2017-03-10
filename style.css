@@ -115,7 +115,6 @@ span.txt-cursive {
 
 /* Main Menu */
 aside {
-	width: 70px;
 	height: 100%;
 	background-color: rgba(0,0,0,.05);
 	display: block;
@@ -123,24 +122,47 @@ aside {
 	z-index: 50;
 }
 	aside .aside-wrapper {
+		width: 70px;
 		background-color: #c92e45;
 		padding-top: .75em;
+		overflow: hidden;
+		-webkit-transition: width .5s;
+		transition: width .5s;
 	}
 		.menu-logo a, nav a {
+			font-weight: 100;
 			display: block;
 			padding: 8px 17px;
+			color: #fff;
 		}
-		aside a svg {
-			fill: #ff94a4;
-			-ms-transition: fill .3s;
-			transition: fill .3s;
+		.menu-logo a {
+			text-transform: uppercase;
+			padding-right: 3em;
 		}
-			aside a svg:hover {
-				fill: #ffe2e6;
+			.menu-logo, nav {
+				width: 210px;
 			}
-				.menu-logo a svg:hover {
-					fill: #ffe384;
+				.menu-logo a .mm-icon, nav a .mm-icon {
+					width: 36px;
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 1em;
 				}
+				.menu-logo a .mm-link-text, nav a .mm-link-text {
+					display: inline-block;
+					vertical-align: middle;
+				}
+			aside a svg {
+				fill: #ff94a4;
+				-ms-transition: fill .3s;
+				transition: fill .3s;
+			}
+				aside a:hover svg {
+					fill: #ffe2e6;
+				}
+					.menu-logo a:hover svg {
+						fill: #ffe384;
+					}
 		.jf-menu-title {
 			background-color: #c92e45;
 			width: 100%;
@@ -644,6 +666,10 @@ footer {
 /* RESPONSIVE */
 /* ---------- */
 
+@media screen and (max-width: 890px;) {
+
+}
+
 @media screen and (max-width: 800px) {
 	.ft-links:nth-child(2) {
 		margin-right: 0;
@@ -767,6 +793,9 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+	.wrapper {
+		padding-top: 9em;
+	}
 	#hero-content {
 		padding: 8em 0 1em;
 	}

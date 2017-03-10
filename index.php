@@ -15,7 +15,7 @@
     
     <div class="joes-logo">
         <div class="jf-logo">
-            <img src="assets/images/joes-fusion-logo.png" alt="Joe's Fusion Cuisine">
+            <a href="javascript:void(0);"><img src="assets/images/joes-fusion-logo.png" alt="Joe's Fusion Cuisine"></a>
         </div>
         <p>Joe's Fusion</p>
     </div>
