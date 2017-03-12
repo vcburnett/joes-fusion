@@ -10,6 +10,12 @@ $( document ).ready(function() {
 	var menuClosedW = 70;
 	var menuOpenW = 210;
 
+	var mobMenuBtn = $("#mob-menu-button-x");
+	var mobMenuContent = $("#mobile-menu");
+
+	var wrapper = $(".wrapper");
+
+	// Functions
 	function updateElements() {
 		console.log("moved!");
 
@@ -27,6 +33,17 @@ $( document ).ready(function() {
 		$(this).css("width", menuClosedW);
 	});
 
+	// ON CLICKS
+	mobMenuBtn.click(function(){
+		if ($(this).hasClass("open")) {
+			$(this).removeClass("open");
+			mobMenuContent.removeClass("mobile-menu-on");
+		} else {
+			$(this).addClass("open");
+			mobMenuContent.addClass("mobile-menu-on");
+		}
+	});
+
 	// ON SCROLL
 	$(window).on('scroll', function() {
 	    var yScroll = window.pageYOffset;
@@ -39,6 +56,7 @@ $( document ).ready(function() {
 	    } else {
 			joesLogo.removeClass("joes-logo-scroll");
 	    }
+
 	});
 
 });
