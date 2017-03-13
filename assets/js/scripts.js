@@ -1,8 +1,6 @@
 $( document ).ready(function() {
 
 	var browserWindow = $(window);
-	var browserH = browserWindow.height();
-	var browserW = browserWindow.width();
 
 	var joesLogo = $(".joes-logo");
 
@@ -14,11 +12,30 @@ $( document ).ready(function() {
 	var mobMenuContent = $("#mobile-menu");
 
 	var wrapper = $(".wrapper");
+	var footer = $("footer");
+
+	var browserH, browserW;
 
 	// Functions
 	function updateElements() {
-		console.log("moved!");
+		browserH = browserWindow.height();
+		browserW = browserWindow.width();
 
+		// Menu mobile
+		if ( browserW > 880 ) {
+			if (mobMenuBtn.hasClass("open")) {
+				mobMenuBtn.removeClass("open");
+				mobMenuContent.removeClass("mobile-menu-on");
+			}
+		}
+
+		// footer placement
+		var deltaFt = browserH - (wrapper.outerHeight(true) + footer.outerHeight(true));
+		if ( deltaFt > 0 ) {
+			footer.addClass("ft-fixed");
+		} else {
+			footer.removeClass("ft-fixed");
+		}
 	}
 
 	// ON RESIZE
@@ -47,7 +64,7 @@ $( document ).ready(function() {
 	// ON SCROLL
 	$(window).on('scroll', function() {
 	    var yScroll = window.pageYOffset;
-	    var scrollTrigger = 75;	// set to whatever you want it to be
+	    var scrollTrigger = 30;	// set to whatever you want it to be
 
 	    console.log("yScroll = " + yScroll);
 

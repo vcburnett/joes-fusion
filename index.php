@@ -11,14 +11,7 @@
 
 <body>
 
-    <?php include_once("assets/modules/main-menu.php"); ?>
-    
-    <div class="joes-logo">
-        <div class="jf-logo">
-            <a href="javascript:void(0);"><img src="assets/images/joes-fusion-logo.png" alt="Joe's Fusion Cuisine"></a>
-        </div>
-        <p>Joe's Fusion</p>
-    </div>
+    <?php include_once("assets/modules/header.php"); ?>
 
     <!-- WRAPPER Content -->
     <div class="wrapper">

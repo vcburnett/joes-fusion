@@ -11,19 +11,12 @@
 
 <body>
 
-    <?php include_once("assets/modules/main-menu.php"); ?>
-    
-    <div class="joes-logo">
-        <div class="jf-logo">
-            <a href="javascript:void(0);"><img src="assets/images/joes-fusion-logo.png" alt="Joe's Fusion Cuisine"></a>
-        </div>
-        <p>Joe's Fusion</p>
-    </div>
+    <?php include_once("assets/modules/header.php"); ?>
 
     <!-- WRAPPER Content -->
     <div class="wrapper">
         <div class="page-intro">
-            <h2>Drop us a line... not the fork!</h2>
+            <h2>Drop us a line... <br class="mobile-only">not the fork!</h2>
         </div>
         <div class="cols-2">
             <form>
@@ -46,10 +39,10 @@
                     </label>
                 </span>
                 <p class="p-checkbox"><input type="checkbox" name="mailing_list" value="Yes"> Add me to the Joe's Fusion mailing list! We will send you very few but very interesting newsletters containing recipes, articles and other cool things we think we should share with everyone!</p>
-                <input type="submit" value="Send your message">
+                <input type="submit" class="cta" value="Send your message">
             </form>
         </div>
-        <div class="cols-2">
+        <div class="cols-2 contact-extra-padding">
             <p>Feel free to join us on social media. We post all sorts of cool stuff we do and find things online!</p>
             <div class="in-content-sm">
                 <a href="javascript:void(0);" id="btn-sm-facebook"><img src="assets/images/svg-facebook.svg" alt="Jpe's Fusion on Facebook"></a>
