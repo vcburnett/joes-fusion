@@ -134,7 +134,7 @@ aside {
 			font-weight: 100;
 			display: block;
 			padding: 8px 17px;
-			color: #fff;
+			color: #ff94a4;
 		}
 		.menu-logo a {
 			text-transform: uppercase;
@@ -153,13 +153,16 @@ aside {
 					display: inline-block;
 					vertical-align: middle;
 				}
+				.menu-logo a:hover, nav a:hover {
+					color: #ffe384;
+				}
 			aside a svg {
 				fill: #ff94a4;
 				-ms-transition: fill .3s;
 				transition: fill .3s;
 			}
 				aside a:hover svg {
-					fill: #ffe2e6;
+					fill: #ffe384;
 				}
 					.menu-logo a:hover svg {
 						fill: #ffe384;
@@ -327,7 +330,7 @@ aside {
 				margin-right: 1em;
 			}
 			#mob-menu-content nav a:hover, #mob-menu-content nav a:active {
-				color: #fff;
+				color: #ffe384;
 			}
 			#mob-menu-content nav a svg {
 				fill: #ff94a4;
@@ -335,7 +338,7 @@ aside {
 				transition: fill .3s;
 			}
 			#mob-menu-content nav a:hover svg, #mob-menu-content nav a:active svg {
-				fill: #fff;
+				fill: #ffe384;
 			}
 	.mobile-menu-on {
 		left: 0 !important;
