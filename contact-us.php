@@ -45,10 +45,10 @@
         <div class="cols-2 contact-extra-padding">
             <p>Feel free to join us on social media. We post all sorts of cool stuff we do and find things online!</p>
             <div class="in-content-sm">
-                <a href="javascript:void(0);" id="btn-sm-facebook"><img src="assets/images/svg-facebook.svg" alt="Jpe's Fusion on Facebook"></a>
-                <a href="javascript:void(0);" id="btn-sm-twitter"><img src="assets/images/svg-twitter.svg" alt="Jpe's Fusion on Twitter"></a>
-                <a href="javascript:void(0);" id="btn-sm-pinterest"><img src="assets/images/svg-pinterest.svg" alt="Jpe's Fusion on Pinterest"></a>
-                <a href="javascript:void(0);" id="btn-sm-instagram"><img src="assets/images/svg-instagram.svg" alt="Jpe's Fusion on Instagram"></a>
+                <a href="https://www.facebook.com/joesfusion/" id="btn-sm-facebook"><img src="assets/images/svg-facebook.svg" alt="Jpe's Fusion on Facebook"></a>
+                <a href="https://twitter.com/JoesFusionMag/" id="btn-sm-twitter"><img src="assets/images/svg-twitter.svg" alt="Jpe's Fusion on Twitter"></a>
+                <a href="https://www.pinterest.com/joesfusion/" id="btn-sm-pinterest"><img src="assets/images/svg-pinterest.svg" alt="Jpe's Fusion on Pinterest"></a>
+                <a href="https://www.instagram.com/joesfusion/" id="btn-sm-instagram"><img src="assets/images/svg-instagram.svg" alt="Jpe's Fusion on Instagram"></a>
             </div>
             <p>We are located in Montreal, Canada. An awesome city with many different culinary adventures just waiting to be experienced. If you're around, send us a message and, who knows, maybe we could go out for a bite!</p>
         </div>
