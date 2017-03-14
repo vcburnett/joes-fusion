@@ -386,7 +386,7 @@ aside {
 
 /* Main Content */
 .wrapper {
-	width: 85%;
+	width: 84%;
 	max-width: 1040px;
 	margin: 0 auto;
 	padding-top: 10.5em;
@@ -1243,6 +1243,24 @@ input[type="submit"] {
 				.another-joe-text h2 {
 					font-size: 2em;
 				}
+
+/* Long text */
+.wrap-long-text {
+	width: 90%;
+	max-width: 720px;
+	margin: 0 auto;
+}
+	.wrap-long-text h1 {
+		font-size: 2.5em;
+		line-height: 1.15em;
+		color: #676f88;
+	}
+	.subtitle-meta {
+		font-size: .8em;
+		line-height: 1.15em;
+		color: #aaa;
+		margin: 0 0 1.5em;
+	}
 
 /* Footer */
 footer {
