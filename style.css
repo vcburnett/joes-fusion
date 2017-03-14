@@ -205,88 +205,88 @@ aside {
 	transition: width .3s, height .3s;
 }
 	#mob-menu-button-x {
-	  width: 59px;
-	  height: 59px;
-	  padding: 9px;
-	  position: relative;
-	  -webkit-transform: rotate(0deg);
-	  -moz-transform: rotate(0deg);
-	  -o-transform: rotate(0deg);
-	  transform: rotate(0deg);
-	  -webkit-transition: .5s ease-in-out;
-	  -moz-transition: .5s ease-in-out;
-	  -o-transition: .5s ease-in-out;
-	  transition: .5s ease-in-out;
-	  cursor: pointer;
+		width: 59px;
+		height: 59px;
+		padding: 9px;
+		position: relative;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
+		transition: .5s ease-in-out;
+		cursor: pointer;
 	}
 
 		#mob-menu-button-x span {
-		  display: block;
-		  position: absolute;
-		  height: 4px;
-		  width: 41px;
-		  background: #ccc;
-		  border-radius: 4px;
-		  opacity: 1;
-		  left: 9px;
-		  -webkit-transform: rotate(0deg);
-		  -moz-transform: rotate(0deg);
-		  -o-transform: rotate(0deg);
-		  transform: rotate(0deg);
-		  -webkit-transition: .25s ease-in-out;
-		  -moz-transition: .25s ease-in-out;
-		  -o-transition: .25s ease-in-out;
-		  transition: .25s ease-in-out;
+			display: block;
+			position: absolute;
+			height: 4px;
+			width: 41px;
+			background: #ccc;
+			border-radius: 4px;
+			opacity: 1;
+			left: 9px;
+			-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
+			-webkit-transition: .25s ease-in-out;
+			-moz-transition: .25s ease-in-out;
+			-o-transition: .25s ease-in-out;
+			transition: .25s ease-in-out;
 		}
 
 		#mob-menu-button-x span:nth-child(1) {
-		  top: 15px;
-		  -webkit-transform-origin: left center;
-		  -moz-transform-origin: left center;
-		  -o-transform-origin: left center;
-		  transform-origin: left center;
+			top: 15px;
+			-webkit-transform-origin: left center;
+			-moz-transform-origin: left center;
+			-o-transform-origin: left center;
+			transform-origin: left center;
 		}
 
 		#mob-menu-button-x span:nth-child(2) {
-		  top: 27px;
-		  -webkit-transform-origin: left center;
-		  -moz-transform-origin: left center;
-		  -o-transform-origin: left center;
-		  transform-origin: left center;
+			top: 27px;
+			-webkit-transform-origin: left center;
+			-moz-transform-origin: left center;
+			-o-transform-origin: left center;
+			transform-origin: left center;
 		}
 
 		#mob-menu-button-x span:nth-child(3) {
-		  top: 39px;
-		  -webkit-transform-origin: left center;
-		  -moz-transform-origin: left center;
-		  -o-transform-origin: left center;
-		  transform-origin: left center;
+			top: 39px;
+			-webkit-transform-origin: left center;
+			-moz-transform-origin: left center;
+			-o-transform-origin: left center;
+			transform-origin: left center;
 		}
 
 		#mob-menu-button-x.open span:nth-child(1) {
-		  background: #f8667c;
-		  -webkit-transform: rotate(45deg);
-		  -moz-transform: rotate(45deg);
-		  -o-transform: rotate(45deg);
-		  transform: rotate(45deg);
-		  top: 12px;
-		  left: 15px;
+			background: #f8667c;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			top: 12px;
+			left: 15px;
 		}
 
 		#mob-menu-button-x.open span:nth-child(2) {
-		  background: #f8667c;
-		  width: 0%;
-		  opacity: 0;
+			background: #f8667c;
+			width: 0%;
+			opacity: 0;
 		}
 
 		#mob-menu-button-x.open span:nth-child(3) {
-		  background: #f8667c;
-		  -webkit-transform: rotate(-45deg);
-		  -moz-transform: rotate(-45deg);
-		  -o-transform: rotate(-45deg);
-		  transform: rotate(-45deg);
-		  top: 41px;
-		  left: 15px;
+			background: #f8667c;
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			top: 41px;
+			left: 15px;
 		}
 
 #mobile-menu {
@@ -860,7 +860,7 @@ aside {
 		width: 40%;
 		color: #6a7989;
 		-webkit-font-smoothing: antialiased;
-	    -moz-osx-font-smoothing: grayscale;
+		-moz-osx-font-smoothing: grayscale;
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
 		-khtml-user-select: none;
@@ -941,16 +941,23 @@ aside {
 
 input[type="submit"] {
 	font-size: 1.1em;
-    line-height: 1.15em;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 1.1em 4em;
-    background-color: #c92e45;
+	line-height: 1.15em;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 1.1em 4em;
+	background-color: #c92e45;
 	border: none;
-    border-radius: 50px;
-    text-decoration: none;
-    display: inline-block;
+	border-radius: 50px;
+	text-decoration: none;
+	display: inline-block;
+	-webkit-transition: .3s;
+	transition: .3s;
 }
+	input[type="submit"]:hover {
+		cursor: pointer;
+		color: #fff;
+		background-color: #125688;
+	}
 
 @-webkit-keyframes anim-1 {
 	50% {
@@ -1677,12 +1684,3 @@ footer {
 		}
 
 }
-
-
-
-
-
-
-
-
-
