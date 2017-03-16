@@ -11,13 +11,13 @@
 
 <body>
 
-    <?php include_once("assets/modules/header.php"); ?>
+	<?php include_once("assets/modules/header.php"); ?>
 
-    <!-- WRAPPER Content -->
-    <div class="wrapper">
-       
-    </div>
-    <!-- end/ WRAPPER Content -->
+	<!-- WRAPPER Content -->
+	<div class="wrapper">
+
+	</div>
+	<!-- end/ WRAPPER Content -->
 
 	<?php include_once("assets/modules/footer.php"); ?>
 

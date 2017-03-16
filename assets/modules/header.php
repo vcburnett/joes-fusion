@@ -17,7 +17,7 @@
             
         </div>
     	<nav>
-            <a href="javascript:void(0);">
+            <a href="articles-recipes.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-recipe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <path d="M330,177.2c0,8.3-6.7,15-15,15c-35.4,0-66.3,2.9-95,14.9V271c0,18.7-15.1,33.8-33.8,33.8H63.8C45.1,304.8,30,289.6,30,271V164.5c0-5.4,4.4-9.8,9.8-9.8h170.5c5.4,0,9.8,4.4,9.8,9.8v10.6c31.8-10.9,64-12.9,95-12.9C323.3,162.2,330,169,330,177.2zM117,141.8c1.8,0,3.6-0.6,5.2-1.8c3.7-2.9,4.4-8.2,1.6-11.9c-7.2-9.5-4.7-18.6,0.3-33.8c5-14.9,11.1-33.6,0.5-54.2c-2.1-4.2-7.3-5.8-11.4-3.7c-4.2,2.1-5.8,7.3-3.7,11.4c7.4,14.3,3.1,27.3-1.5,41.1c-5,15.2-10.8,32.4,2.3,49.5C111.9,140.6,114.5,141.8,117,141.8z M150.9,117.2l0.1,0.1c-0.8-1-7.2-10.3,3.9-25.7c2.8-3.8,1.9-9.1-1.9-11.9c-3.8-2.7-9.1-1.9-11.9,1.9c-19.3,26.7-4,45.6-3.3,46.4L150.9,117.2z"/>
@@ -27,7 +27,7 @@
                     <p>Recipes</p>
                 </div>
             </a>
-            <a href="javascript:void(0);">
+            <a href="restaurants.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-restaurant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <path d="M302.4,281.3L243.1,222c-2.6-2.6-5.8-4.2-9.2-4.9l-4.3-4.3c1.6-3.5,1-7.9-1.9-10.8L212,186.3c4.2,1.1,8.7,1.6,13.2,1.6c14.3,0,27.7-5.6,37.8-15.7l36.6-36.6c5.9-5.9,5.9-15.4,0-21.2c-5.9-5.9-15.4-5.9-21.2,0l-36.6,36.6c-4.4,4.4-10.3,6.9-16.6,6.9c-0.5,0-1.1,0-1.6-0.1l50.4-50.4c5.9-5.9,5.9-15.4,0-21.2c-5.9-5.9-15.4-5.9-21.2,0l-50.9,50.9c-0.8-6.9,1.4-14.1,6.7-19.3l36.6-36.6c5.9-5.9,5.9-15.4,0-21.2c-5.9-5.9-15.4-5.9-21.2,0l-36.6,36.6c-13.8,13.8-18.5,33.4-14,51L94.3,68.6C86,60.3,71.8,65,70.1,76.7l0,0c-6.2,44.5,8.8,89.4,40.6,121.2l10.4,10.4L58.2,271c-8.6,8.6-8.6,22.5,0,31.1c4.3,4.3,9.9,6.4,15.6,6.4c5.6,0,11.3-2.1,15.6-6.4l62.8-62.8l16.4,16.4c5.2,5.2,13.7,5.2,19,0l21.3-21.3l3.9,3.9c0.7,3.4,2.3,6.6,4.9,9.2l59.4,59.4c3.5,3.5,8.1,5.3,12.7,5.3s9.2-1.8,12.7-5.3C309.4,299.7,309.4,288.3,302.4,281.3z"/>
@@ -37,7 +37,7 @@
                     <p>Restaurants</p>
                 </div>
             </a>
-            <a href="javascript:void(0);">
+            <a href="articles-recipes.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-article" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <g>
@@ -50,7 +50,7 @@
                     <p>Articles</p>
                 </div>
             </a>
-            <a href="javascript:void(0);">
+            <a href="interviews.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-interview" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <g>
@@ -113,7 +113,7 @@
 
     <div id="mob-menu-content">
         <nav>
-            <a href="javascript:void(0);">
+            <a href="articles-recipes.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-recipe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <path d="M330,177.2c0,8.3-6.7,15-15,15c-35.4,0-66.3,2.9-95,14.9V271c0,18.7-15.1,33.8-33.8,33.8H63.8C45.1,304.8,30,289.6,30,271V164.5c0-5.4,4.4-9.8,9.8-9.8h170.5c5.4,0,9.8,4.4,9.8,9.8v10.6c31.8-10.9,64-12.9,95-12.9C323.3,162.2,330,169,330,177.2zM117,141.8c1.8,0,3.6-0.6,5.2-1.8c3.7-2.9,4.4-8.2,1.6-11.9c-7.2-9.5-4.7-18.6,0.3-33.8c5-14.9,11.1-33.6,0.5-54.2c-2.1-4.2-7.3-5.8-11.4-3.7c-4.2,2.1-5.8,7.3-3.7,11.4c7.4,14.3,3.1,27.3-1.5,41.1c-5,15.2-10.8,32.4,2.3,49.5C111.9,140.6,114.5,141.8,117,141.8z M150.9,117.2l0.1,0.1c-0.8-1-7.2-10.3,3.9-25.7c2.8-3.8,1.9-9.1-1.9-11.9c-3.8-2.7-9.1-1.9-11.9,1.9c-19.3,26.7-4,45.6-3.3,46.4L150.9,117.2z"/>
@@ -123,7 +123,7 @@
                     <p>Recipes</p>
                 </div>
             </a>
-            <a href="javascript:void(0);">
+            <a href="restaurants.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-restaurant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <path d="M302.4,281.3L243.1,222c-2.6-2.6-5.8-4.2-9.2-4.9l-4.3-4.3c1.6-3.5,1-7.9-1.9-10.8L212,186.3c4.2,1.1,8.7,1.6,13.2,1.6c14.3,0,27.7-5.6,37.8-15.7l36.6-36.6c5.9-5.9,5.9-15.4,0-21.2c-5.9-5.9-15.4-5.9-21.2,0l-36.6,36.6c-4.4,4.4-10.3,6.9-16.6,6.9c-0.5,0-1.1,0-1.6-0.1l50.4-50.4c5.9-5.9,5.9-15.4,0-21.2c-5.9-5.9-15.4-5.9-21.2,0l-50.9,50.9c-0.8-6.9,1.4-14.1,6.7-19.3l36.6-36.6c5.9-5.9,5.9-15.4,0-21.2c-5.9-5.9-15.4-5.9-21.2,0l-36.6,36.6c-13.8,13.8-18.5,33.4-14,51L94.3,68.6C86,60.3,71.8,65,70.1,76.7l0,0c-6.2,44.5,8.8,89.4,40.6,121.2l10.4,10.4L58.2,271c-8.6,8.6-8.6,22.5,0,31.1c4.3,4.3,9.9,6.4,15.6,6.4c5.6,0,11.3-2.1,15.6-6.4l62.8-62.8l16.4,16.4c5.2,5.2,13.7,5.2,19,0l21.3-21.3l3.9,3.9c0.7,3.4,2.3,6.6,4.9,9.2l59.4,59.4c3.5,3.5,8.1,5.3,12.7,5.3s9.2-1.8,12.7-5.3C309.4,299.7,309.4,288.3,302.4,281.3z"/>
@@ -133,7 +133,7 @@
                     <p>Restaurants</p>
                 </div>
             </a>
-            <a href="javascript:void(0);">
+            <a href="articles-recipes.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-article" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <g>
@@ -146,7 +146,7 @@
                     <p>Articles</p>
                 </div>
             </a>
-            <a href="javascript:void(0);">
+            <a href="interviews.php">
                 <div class="mm-icon">
                     <svg version="1.1" id="icon-interview" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
                         <g>
