@@ -20,7 +20,7 @@
                 <h1>Beef Wellington</h1>
                 <div class="hero-text">
                     <p>Nunc interdum ultricies dignissim. Phasellus non magna mattis dui lacinia cursus. Phasellus imperdiet bibendum quis malesuada.</p>
-                    <p class="hero-metas">April 16th, 2015 <span class="txt-div">|</span> by <a href="javascript:void(0);">Victor Burnett</a></p>
+                    <p class="hero-metas">April 16th, 2015 <span class="txt-div">|</span> by <a href="search.php">Victor Burnett</a></p>
                 </div>
             </div>
             <a href="javascript:void(0);" class="CTA">View the recipe</a>
@@ -65,37 +65,37 @@
             <!-- Article type recipe -->
             <article class="art-recipe">
                 <div class="art-recipe-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
+                    <a href="internal-recipe.php" class="btn-image">
                         <img src="assets/images/_examples/image-recipe.jpg" alt="Recipe example">
                     </a>
                 </div>
                 <div class="art-recipe-text">
                     <h2>Eggplant parmegiana</h2>
                     <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                    <p class="article-metas"><a href="search.php">April 23, 2016</a> | by <a href="search.php">Victor Burnett</a></p>
+                    <a href="internal-recipe.php" class="cta-dark">Read more</a>
                 </div>
             </article>
 
             <!-- Article type interview/profile -->
             <article class="art-interview">
                 <div class="art-interview-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
+                    <a href="internal-interview.php" class="btn-image">
                         <img src="assets/images/_examples/image-interview.jpg" alt="Interview example">
                     </a>
                 </div>
                 <div class="art-interview-text">
                     <h2>Astrogildo Sandersonnhy</h2>
                     <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                    <p class="article-metas"><a href="search.php">April 23, 2016</a> | by <a href="search.php">Victor Burnett</a></p>
+                    <a href="internal-interview.php" class="cta-dark">Read more</a>
                 </div>
             </article>
 
             <!-- Article type restaurant -->
             <article class="art-restaurant">
                 <div class="art-restaurant-thumb">
-                    <a href="javascript:void(0);" class="btn-image">
+                    <a href="internal-restaurant.php" class="btn-image">
                         <div class="art-restaurant-thumb-cover"></div>
                     </a>
                     <img src="assets/images/_examples/image-restaurant.jpg" alt="Name of restaurant">
@@ -103,8 +103,8 @@
                 <div class="art-restaurant-text">
                     <h2>Name of the Restaurant</h2>
                     <p>Rump ham hock beef ribs, prosciutto bresaola pork biltong pork chop jowl porchetta ham turkey. Kevin tail fatback turkey landjaeger tenderloin, frankfurter pork loin ribeye capicola biltong swine.</p>
-                    <p class="article-metas"><a href="javascript:void(0);">April 23, 2016</a> | by <a href="javascript:void(0);">Victor Burnett</a></p>
-                    <a href="javascript:void(0);" class="cta-dark">Read more</a>
+                    <p class="article-metas"><a href="search.php">April 23, 2016</a> | by <a href="search.php">Victor Burnett</a></p>
+                    <a href="internal-restaurant.php" class="cta-dark">Read more</a>
                 </div>
             </article>
 

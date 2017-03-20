@@ -30,105 +30,120 @@
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-recipe.php"><img src="assets/images/_examples/search-thumb-recipe.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-recipe.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-recipe.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-article.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-article.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-article.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-recipe.php"><img src="assets/images/_examples/search-thumb-recipe.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-recipe.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-recipe.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-article.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-article.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-article.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-recipe.php"><img src="assets/images/_examples/search-thumb-recipe.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-recipe.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-recipe.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-article.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-article.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-article.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-recipe.php"><img src="assets/images/_examples/search-thumb-recipe.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-recipe.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-recipe.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="content-container">
+				<div class="content-thumb">
+					<a href="internal-article.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+				</div>
+				<div class="content-text">
+					<a href="internal-article.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
+					<a href="internal-article.php" class="content-btn">Read on</a>
+					<div class="content-metas">
+						<p><span class="content-date">September 12, 2017</span></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
