@@ -467,6 +467,7 @@ aside {
 			#sec-join-us .ta-text p:first-child {
 				font-family: 'Mr De Haviland', cursive;
 				font-size: 2.75em;
+				margin-bottom: .1em;
 			}
 			#sec-join-us .ta-text p:last-child {
 				padding-left: 1em;
@@ -1510,7 +1511,7 @@ input[type="submit"] {
 
 section.related-articles-wrapper {
 	width: 100%;
-	max-width: 960px;
+	max-width: 800px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -1521,13 +1522,23 @@ section.related-articles-wrapper {
 		vertical-align: top;
 		position: relative;
 	}
-		.ra-thumb {
+	.author-wrapper {
+		width: 20%;
+		max-width: 220px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+		.ra-thumb, .author-thumb {
 			width: 75%;
 			margin: 0 auto 1em;
 			border-radius: 50%;
 			overflow: hidden;
 		}
-		.ra-content {
+			.author-thumb {
+				width: 50%;
+			}
+		.ra-content, .author-content {
 			width: 100%;
 		}
 			.ra-content h2 {
@@ -1535,6 +1546,15 @@ section.related-articles-wrapper {
 				font-size: 1em;
 				line-height: 1.15em;
 				margin-bottom: .75em;
+			}
+			.author-content h2 {
+				font-size: 2.25em;
+				line-height: 1.15em;
+				margin-bottom: 0;
+			}
+			.author-content p {
+				font-size: .9em;
+				line-height: 1.5em;
 			}
 			.ra-content a {
 				display: inline-block;
