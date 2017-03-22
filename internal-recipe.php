@@ -24,6 +24,7 @@
 
 		<div class="internal-content">
 			<div class="recipe-content">
+				<a href="#the-recipe-anchor" class="mobile-only anchor-link">Go to the recipe</a>
 				<p>Bacon ipsum dolor amet landjaeger chuck andouille shoulder beef ribs kevin capicola. Pig fatback chicken, chuck meatball short loin meatloaf ground round tenderloin picanha. Ribeye picanha jowl, burgdoggen flank sirloin brisket. Beef ribs filet mignon cow shoulder. Venison bresaola ground round, boudin sausage turducken beef ribs salami shank short loin swine cow leberkas.</p>
 				<p>Chicken sausage pork loin ham hock shank, jerky tongue bresaola picanha bacon ball tip pork belly. Turkey tri-tip t-bone sirloin jowl, tail burgdoggen. Chuck shank pork chop meatball kevin. Fatback turducken pig, beef bacon porchetta shankle strip steak capicola leberkas ham prosciutto. T-bone corned beef turducken swine chicken frankfurter sirloin. Salami doner pork loin fatback, jowl boudin venison hamburger pork belly burgdoggen ball tip leberkas biltong capicola porchetta. Sirloin shoulder boudin ball tip beef ribs cupim corned beef bacon prosciutto shank alcatra short ribs andouille.</p>
 				<div class="inline-image">
@@ -36,7 +37,7 @@
 				<p>Swine t-bone frankfurter, chuck kielbasa andouille filet mignon jerky kevin. Ground round salami short loin andouille, corned beef beef ribs cupim rump kielbasa hamburger short ribs burgdoggen cow ham porchetta. Landjaeger ground round corned beef, strip steak pork chop pork shoulder filet mignon capicola pig fatback chicken swine tenderloin. Andouille ham hock alcatra, bacon short ribs fatback jowl.</p>
 				<p>Meatloaf strip steak tongue shoulder. Shoulder picanha shankle brisket cupim pork belly boudin. Landjaeger spare ribs ground round short loin fatback chicken kielbasa hamburger frankfurter ball tip. Chuck leberkas alcatra, tenderloin kielbasa shankle boudin bacon salami. Shank fatback kevin sausage frankfurter short loin jowl salami.</p>
 			</div>
-			<div class="the-recipe">
+			<div class="the-recipe" id="the-recipe-anchor">
 				<div class="ingredients">
 					<h4>Ingredients</h4>
 					<p><input type="checkbox">2 cups<span class="recipe-of"> of </span>Name of the ingredient</p>
@@ -93,7 +94,7 @@
             </div>
         </div>
 
-		<section class="related-articles-wrapper">
+        <section class="related-articles-wrapper">
 
 			<h4>Related Articles</h4>
 		

@@ -830,7 +830,7 @@ aside {
 		color: #676f88;
 	}
 
-/* Filed */
+/* Fields */
 .input {
 	position: relative;
 	z-index: 1;
@@ -1517,6 +1517,18 @@ input[type="submit"] {
 		vertical-align: top;
 	}
 
+.anchor-link {
+	width: 120px;
+	color: #fff;
+	background-color: #c92e45;
+	padding: .5em 0;
+	margin-bottom: .75em;
+	text-align: center;
+}
+	.anchor-link:hover {
+		color: #fff;
+		background-color: #125688;
+	}
 .inline-image {
 	width: 100%;
 	display: inline-block;
@@ -1791,6 +1803,10 @@ footer {
 	#instafeed a {
 		width: 25%;
 	}
+}
+
+@media screen and (max-width: 720px) {
+
 }
 
 @media screen and (max-width: 680px) {
