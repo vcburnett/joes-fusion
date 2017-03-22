@@ -1466,18 +1466,18 @@ input[type="submit"] {
 	max-width: 960px;
 	margin: 0 auto;
 }
-	.internal-content .the-recipe {
+	.the-recipe {
 		width: 33%;
 		display: inline-block;
 		vertical-align: top;
 	}
-		.internal-content .the-recipe h4 {
+		.the-recipe h4 {
 			font-family: 'Mr De Haviland', cursive;
 			font-size: 2.4em;
 			line-height: 1.25em;
 			color: #c92e45;
 		}
-		.internal-content .the-recipe h4:after {
+		.the-recipe h4:after {
 			content: "";
 			width: 83%;
 			height: 1px;
@@ -1500,17 +1500,17 @@ input[type="submit"] {
 			.the-recipe .instructions {
 
 			}
-				.the-recipe .instructions ol {
+				ol.ol-instructions {
 					display: block;
 					list-style-type: decimal;
 					list-style-position: inside;
 				}
-					.the-recipe .instructions ol li {
+					ol.ol-instructions li {
 						padding-left: 1em;
 						text-indent: -1em;
 						margin-bottom: .75em;
 					}
-	.internal-content .recipe-content {
+	.recipe-content {
 		width: 63%;
 		margin-right: 3%;
 		display: inline-block;
@@ -1520,6 +1520,7 @@ input[type="submit"] {
 .anchor-link {
 	width: 120px;
 	color: #fff;
+	display: none;
 	background-color: #c92e45;
 	padding: .5em 0;
 	margin-bottom: .75em;
@@ -1641,6 +1642,88 @@ section.related-articles-wrapper {
 			.author-content a.btn-link {
 				font-size: .85em;
 			}
+
+section#cooking-screen {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	opacity: 0;
+	background-color: #f4f4f4;
+	position: fixed;
+	z-index: 1000000;
+	-webkit-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+	#cs-image {
+		width: 40vw;
+		height: 100vh;
+		display: block;
+		float: left;
+		padding-top: 37vh;
+		background-position: center center;
+		background-size: cover;
+		position: relative;
+	}
+		#cs-image-logo {
+			width: 27vh;
+			margin: 0 auto;
+		}
+		#cs-image-close {
+			width: 150px;
+			text-align: center;
+			color: #fff;
+			background-color: #c92e45;
+			position: absolute;
+			display: block;
+			top: 0;
+			right: 0;
+			padding: .75em 0;
+		}
+			#cs-image-close:hover {
+				color: #fff;
+				background-color: #125688;
+			}
+	#cs-ingredients, #cs-instructions {
+		width: 30vw;
+		height: 100vh;
+		display: block;
+		float: left;
+		padding: 4.5em 2em;
+	}
+		#cs-ingredients {
+			width: 25vw;
+		}
+		#cs-instructions {
+			width: 35vw;
+			background-color: #fafafa;
+		}
+			#cs-ingredients h4, #cs-instructions h4 {
+				font-family: 'Mr De Haviland', cursive;
+				font-size: 2.4em;
+				line-height: 1.25em;
+				color: #c92e45;
+			}
+			#cs-ingredients h4:after, #cs-instructions h4:after {
+				content: "";
+				width: 20%;
+				height: 1px;
+				background-color: #ccc;
+				display: block;
+				margin: -6px 0 12px 14%;
+			}
+			#cs-instructions h4:after {
+				margin-left: 7%;
+			}
+
+
+
+
+
+
+	.cs-show {
+		display: block !important;
+		opacity: 1 !important;
+	}
 
 /* Footer */
 footer {
@@ -1806,7 +1889,34 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
+	.recipe-content, .the-recipe {
+		width: 100%;
+	}
+		.the-recipe {
+			padding-top: 5em;
+		}
+			.the-recipe .ingredients {
+				width: 39%;
+				margin-right: 3%;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.the-recipe .instructions {
+				width: 57%;
+				display: inline-block;
+				vertical-align: top;
+			}
+	.anchor-link {
+		display: block;
+	}
 
+	.related-article {
+		width: 23%;
+		margin: 0 .5%;
+	}
+		.related-article:nth-child(5) {
+			display: none;
+		}
 }
 
 @media screen and (max-width: 680px) {
@@ -1968,6 +2078,35 @@ footer {
 		margin: 0 auto;
 	}
 
+	#internal-hero {
+		height: 360px;
+	}
+		#internal-hero #internal-hero-content {
+			padding-top: 14em;
+		}
+			#internal-hero #internal-hero-content h1 {
+				font-size: 4em;
+				line-height: .85em;
+			}
+
+	.related-article {
+		width: 46%;
+		margin: 0 1%;
+	}
+		.ra-thumb {
+			width: 33%;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 3% 0 0;
+		}
+		.ra-content {
+			width: 60%;
+			display: inline-block;
+			vertical-align: top;
+			text-align: left;
+		}
+
+
 	.mobile-only {
 		display: block !important;
 	}
@@ -2060,7 +2199,17 @@ footer {
 	}
 	.ft-links:last-child {
 		display: block;
-		margin-top: .3em;	}
+		margin-top: .3em;
+	}
+
+	.the-recipe .ingredients, .the-recipe .instructions {
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+		.the-recipe .ingredients {
+			margin-bottom: 3em;
+		}
 
 }
 
@@ -2114,6 +2263,20 @@ footer {
 
 }
 
+@media screen and (max-width: 460px) {
+	.related-article {
+		width: 100%;
+		margin: 0;
+	}
+		.ra-thumb {
+			width: 25%;
+			margin: 0 4% 0 0;
+		}
+		.ra-content {
+			width: 70%;
+		}
+}
+
 @media screen and (max-width: 425px) {
 
 	.content-container {
@@ -2129,6 +2292,17 @@ footer {
 			height: 260px;
 			background-position: 25% top;
 		}
+
+	#internal-hero {
+		height: 240px;
+	}
+		#internal-hero #internal-hero-content {
+			padding-top: 10em;
+		}
+			#internal-hero #internal-hero-content h1 {
+				font-size: 2.75em;
+				line-height: .85em;
+			}
 
 }
 
