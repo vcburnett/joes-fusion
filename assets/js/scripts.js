@@ -11,6 +11,10 @@ $( document ).ready(function() {
 	var mobMenuBtn = $("#mob-menu-button-x");
 	var mobMenuContent = $("#mobile-menu");
 
+	var cookingScreen = $("section#cooking-screen");
+	var btnOpenCS = $(".btn-open-cs");
+	var btnCloseCS = $("#cs-image-close");
+
 	var wrapper = $(".wrapper");
 	var footer = $("footer");
 
@@ -59,6 +63,20 @@ $( document ).ready(function() {
 			$(this).addClass("open");
 			mobMenuContent.addClass("mobile-menu-on");
 		}
+	});
+	
+	btnOpenCS.on("click", function() {
+		cookingScreen.addClass("cs-show");
+		cookingScreen.animate({
+			"opacity": 1
+		}, 300);
+	});
+	btnCloseCS.on("click", function() {
+		cookingScreen.animate({
+			"opacity": 0
+		}, 500, function() {
+			cookingScreen.removeClass("cs-show");
+		});
 	});
 
 	// ON SCROLL

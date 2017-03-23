@@ -13,7 +13,7 @@
 
 	<?php include_once("assets/modules/header.php"); ?>
 
-	<section id="cooking-screen" class="cs-show">
+	<section id="cooking-screen">
 		<div id="cs-image" style="background-image: url('assets/images/_examples/hero-example-recipe.jpg');">
 			<a href="javascript:void(0);" id="cs-image-close">Close window</a>
 			<div id="cs-image-logo">
@@ -64,7 +64,7 @@
 				</div>
 				<p>Swine t-bone frankfurter, chuck kielbasa andouille filet mignon jerky kevin. Ground round salami short loin andouille, corned beef beef ribs cupim rump kielbasa hamburger short ribs burgdoggen cow ham porchetta. Landjaeger ground round corned beef, strip steak pork chop pork shoulder filet mignon capicola pig fatback chicken swine tenderloin. Andouille ham hock alcatra, bacon short ribs fatback jowl.</p>
 				<p>Meatloaf strip steak tongue shoulder. Shoulder picanha shankle brisket cupim pork belly boudin. Landjaeger spare ribs ground round short loin fatback chicken kielbasa hamburger frankfurter ball tip. Chuck leberkas alcatra, tenderloin kielbasa shankle boudin bacon salami. Shank fatback kevin sausage frankfurter short loin jowl salami.</p>
-				<a
+				<a href="javascript:void(0);" class="btn-open-cs">View Cooking Screen</a>
 			</div>
 			<div class="the-recipe" id="the-recipe-anchor">
 				<div class="ingredients">
@@ -85,6 +85,7 @@
 						<li>Jowl pig sausage, beef ribs short ribs frankfurter chicken tri-tip tongue short loin. Beef ribs shank filet mignon beef rump sausage brisket tri-tip.</li>
 						<li>Short loin landjaeger porchetta, pancetta swine ground round spare ribs.</li>
 					</ol>
+					<a href="javascript:void(0);" class="btn-open-cs">View Cooking Screen</a>
 				</div>
 			</div>
 		</div>

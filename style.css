@@ -22,6 +22,13 @@ html, body {
 	background-color: #f5f5f5;
 }
 
+.body-no-scroll {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	overflow: hidden;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -1491,7 +1498,7 @@ input[type="submit"] {
 				.the-recipe .ingredients p {
 					margin-bottom: 1em;
 				}
-				.the-recipe .ingredients span.recipe-of {
+				span.recipe-of {
 					color: #aaa;
 					font-size: .85em;
 					font-style: italic;
@@ -1651,8 +1658,8 @@ section#cooking-screen {
 	background-color: #f4f4f4;
 	position: fixed;
 	z-index: 1000000;
-	-webkit-transition: opacity .3s ease-in-out;
-	transition: opacity .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 	#cs-image {
 		width: 40vw;
@@ -1689,12 +1696,16 @@ section#cooking-screen {
 		display: block;
 		float: left;
 		padding: 4.5em 2em;
+		position: relative;
+		box-shadow: -3px 0 6px rgba(0,0,0,.12);
 	}
 		#cs-ingredients {
 			width: 25vw;
+			z-index: 10;
 		}
 		#cs-instructions {
 			width: 35vw;
+			z-index: 15;
 			background-color: #fafafa;
 		}
 			#cs-ingredients h4, #cs-instructions h4 {
@@ -1715,14 +1726,23 @@ section#cooking-screen {
 				margin-left: 7%;
 			}
 
-
-
-
-
+	.btn-open-cs {
+		display: block;
+		width: 200px;
+		text-align: center;
+		padding: .7em;
+		background-color: #c92e45;
+		color: #fff;
+		border-radius: 50px;
+		margin-top: 2em;
+	}
+		.btn-open-cs:hover {
+			color: #fff;
+			background-color: #125688;
+		}
 
 	.cs-show {
 		display: block !important;
-		opacity: 1 !important;
 	}
 
 /* Footer */
@@ -1828,6 +1848,23 @@ footer {
 	.a-chef-profile-picture {
 		width: 160px;
 	}
+
+	section#cooking-screen {
+
+	}
+		#cs-image {
+			width: 20vw;
+		}
+			#cs-image-close {
+				width: 20vw;
+			}
+
+			#cs-ingredients {
+				width: 35vw;
+			}
+			#cs-instructions {
+				width: 45vw;
+			}
 
 	.tablet-mobile {
 		display: block !important;
@@ -2106,6 +2143,9 @@ footer {
 			text-align: left;
 		}
 
+	section#cooking-screen {
+		display: none !important;
+	}
 
 	.mobile-only {
 		display: block !important;
