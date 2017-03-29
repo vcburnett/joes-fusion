@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+	var root = $("html, body");
 	var browserWindow = $(window);
 
 	var joesLogo = $(".joes-logo");
@@ -14,6 +15,8 @@ $( document ).ready(function() {
 	var cookingScreen = $("section#cooking-screen");
 	var btnOpenCS = $(".btn-open-cs");
 	var btnCloseCS = $("#cs-image-close");
+
+	var btnAnchor = $(".anchor-link");
 
 	var wrapper = $(".wrapper");
 	var footer = $("footer");
@@ -31,6 +34,10 @@ $( document ).ready(function() {
 				mobMenuBtn.removeClass("open");
 				mobMenuContent.removeClass("mobile-menu-on");
 			}
+		}
+
+		if ( browserW <= 640 ) {
+			cookingScreen.removeClass("cs-show");
 		}
 
 		// footer placement
@@ -77,6 +84,13 @@ $( document ).ready(function() {
 		}, 500, function() {
 			cookingScreen.removeClass("cs-show");
 		});
+	});
+
+	btnAnchor.on("click", function() {
+		root.animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 500
+		);
 	});
 
 	// ON SCROLL

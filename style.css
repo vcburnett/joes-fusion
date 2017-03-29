@@ -784,6 +784,10 @@ aside {
 	display: inline-block;
 	vertical-align: top;
 }
+.cols-1 {
+	display: block;
+	margin: auto;
+}
 .cols-2 {
 	width: 46%;
 	margin: 0 1.5%;
@@ -1523,11 +1527,44 @@ input[type="submit"] {
 		display: inline-block;
 		vertical-align: top;
 	}
+	.restaurant-map {
+		width: 300px;
+		height: auto;
+		display: block;
+		float: right;
+		clear: right;
+		margin-left: 1.5em;
+		padding: 1em;
+		background-color: #fff;
+		border-radius: 5px;
+		box-shadow: 0 2px 4px rgba(0,0,0,.14);
+	}
+		.restaurant-map iframe {
+			width: 100%;
+			height: 240px;
+			border: 1px solid #aaa !important;
+			background: url("assets/images/bg-pattern-space.png") repeat;
+		}
+		.restaurant-map h2 {
+			color: #c92e45;
+			font-size: 2.5em;
+			line-height: 1.15em;
+			margin: .25em 0 0;
+		}
+		.restaurant-map p {
+			color: #999;
+			margin-bottom: 0;
+		}
+		.restaurant-map a {
+			display: inline-block;
+			margin-top: .75em;
+		}
 
 .anchor-link {
-	width: 120px;
+	width: 140px;
 	color: #fff;
 	display: none;
+	border-radius: 50px;
 	background-color: #c92e45;
 	padding: .5em 0;
 	margin-bottom: .75em;
@@ -1537,6 +1574,7 @@ input[type="submit"] {
 		color: #fff;
 		background-color: #125688;
 	}
+
 .inline-image {
 	width: 100%;
 	display: inline-block;
@@ -2126,6 +2164,19 @@ footer {
 				line-height: .85em;
 			}
 
+	.restaurant-map {
+		width: 100%;
+		float: none;
+		clear: none;
+		margin-left: 0;
+		margin-bottom: 2em;
+		padding: .75em;
+	}
+		.restaurant-map iframe {
+			width: 100%;
+			height: 160px;
+		}
+
 	.related-article {
 		width: 46%;
 		margin: 0 1%;
@@ -2143,7 +2194,7 @@ footer {
 			text-align: left;
 		}
 
-	section#cooking-screen {
+	section#cooking-screen, .btn-open-cs {
 		display: none !important;
 	}
 
