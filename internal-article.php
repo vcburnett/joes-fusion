@@ -23,17 +23,30 @@
 		</div>
 		
 		<div class="internal-content">
-			<p>Bacon ipsum dolor amet landjaeger chuck andouille shoulder beef ribs kevin capicola. Pig fatback chicken, chuck meatball short loin meatloaf ground round tenderloin picanha. Ribeye picanha jowl, burgdoggen flank sirloin brisket. Beef ribs filet mignon cow shoulder. Venison bresaola ground round, boudin sausage turducken beef ribs salami shank short loin swine cow leberkas.</p>
-			<p>Chicken sausage pork loin ham hock shank, jerky tongue bresaola picanha bacon ball tip pork belly. Turkey tri-tip t-bone sirloin jowl, tail burgdoggen. Chuck shank pork chop meatball kevin. Fatback turducken pig, beef bacon porchetta shankle strip steak capicola leberkas ham prosciutto. T-bone corned beef turducken swine chicken frankfurter sirloin. Salami doner pork loin fatback, jowl boudin venison hamburger pork belly burgdoggen ball tip leberkas biltong capicola porchetta. Sirloin shoulder boudin ball tip beef ribs cupim corned beef bacon prosciutto shank alcatra short ribs andouille.</p>
+			<div class="cols-1">
+				<p>Bacon ipsum dolor amet landjaeger chuck andouille shoulder beef ribs kevin capicola. Pig fatback chicken, chuck meatball short loin meatloaf ground round tenderloin picanha. Ribeye picanha jowl, burgdoggen flank sirloin brisket. Beef ribs filet mignon cow shoulder. Venison bresaola ground round, boudin sausage turducken beef ribs salami shank short loin swine cow leberkas.</p>
+				<p>Chicken sausage pork loin ham hock shank, jerky tongue bresaola picanha bacon ball tip pork belly. Turkey tri-tip t-bone sirloin jowl, tail burgdoggen. Chuck shank pork chop meatball kevin. Fatback turducken pig, beef bacon porchetta shankle strip steak capicola leberkas ham prosciutto. T-bone corned beef turducken swine chicken frankfurter sirloin. Salami doner pork loin fatback, jowl boudin venison hamburger pork belly burgdoggen ball tip leberkas biltong capicola porchetta. Sirloin shoulder boudin ball tip beef ribs cupim corned beef bacon prosciutto shank alcatra short ribs andouille.</p>
+			</div>
 			<div class="inline-image">
 				<img src="assets/images/_examples/hero-example-recipe.jpg" alt="Recipe example">
 			</div>
-			<p>Meatball ham hock fatback turducken bresaola shank drumstick kielbasa cow. Pork belly shankle frankfurter doner turducken sausage t-bone alcatra, biltong drumstick jowl andouille. Leberkas kielbasa strip steak brisket alcatra tail chuck venison. Jowl pig sausage, beef ribs short ribs frankfurter chicken tri-tip tongue short loin. Beef ribs shank filet mignon beef rump sausage brisket tri-tip. Pork ball tip meatloaf jowl. Short loin landjaeger porchetta, pancetta swine ground round spare ribs.</p>
+			<div class="cols-2">
+				<p>Meatball ham hock fatback turducken bresaola shank drumstick kielbasa cow. Pork belly shankle frankfurter doner turducken sausage t-bone alcatra, biltong drumstick jowl andouille. Leberkas kielbasa strip steak brisket alcatra tail chuck venison. Jowl pig sausage, beef ribs short ribs frankfurter chicken tri-tip tongue short loin. Beef ribs shank filet mignon beef rump sausage brisket tri-tip. Pork ball tip meatloaf jowl. Short loin landjaeger porchetta, pancetta swine ground round spare ribs.</p>
+			</div>
+			<div class="cols-2">
+				<p>Meatball ham hock fatback turducken bresaola shank drumstick kielbasa cow. Pork belly shankle frankfurter doner turducken sausage t-bone alcatra, biltong drumstick jowl andouille. Leberkas kielbasa strip steak brisket alcatra tail chuck venison. Jowl pig sausage, beef ribs short ribs frankfurter chicken tri-tip tongue short loin. Beef ribs shank filet mignon beef rump sausage brisket tri-tip. Pork ball tip meatloaf jowl. Short loin landjaeger porchetta, pancetta swine ground round spare ribs.</p>
+			</div>
 			<div class="inline-image">
 				<img src="assets/images/_examples/image-example-recipe.jpg" alt="Recipe example">
 			</div>
-			<p>Swine t-bone frankfurter, chuck kielbasa andouille filet mignon jerky kevin. Ground round salami short loin andouille, corned beef beef ribs cupim rump kielbasa hamburger short ribs burgdoggen cow ham porchetta. Landjaeger ground round corned beef, strip steak pork chop pork shoulder filet mignon capicola pig fatback chicken swine tenderloin. Andouille ham hock alcatra, bacon short ribs fatback jowl.</p>
-			<p>Meatloaf strip steak tongue shoulder. Shoulder picanha shankle brisket cupim pork belly boudin. Landjaeger spare ribs ground round short loin fatback chicken kielbasa hamburger frankfurter ball tip. Chuck leberkas alcatra, tenderloin kielbasa shankle boudin bacon salami. Shank fatback kevin sausage frankfurter short loin jowl salami.</p>
+			<div class="cols-1">
+				<p>Swine t-bone frankfurter, chuck kielbasa andouille filet mignon jerky kevin. Ground round salami short loin andouille, corned beef beef ribs cupim rump kielbasa hamburger short ribs burgdoggen cow ham porchetta. Landjaeger ground round corned beef, strip steak pork chop pork shoulder filet mignon capicola pig fatback chicken swine tenderloin. Andouille ham hock alcatra, bacon short ribs fatback jowl.</p>
+				<p>Meatloaf strip steak tongue shoulder. Shoulder picanha shankle brisket cupim pork belly boudin. Landjaeger spare ribs ground round short loin fatback chicken kielbasa hamburger frankfurter ball tip. Chuck leberkas alcatra, tenderloin kielbasa shankle boudin bacon salami. Shank fatback kevin sausage frankfurter short loin jowl salami.</p>
+			</div>
+		</div>
+
+		<div class="content-end">
+			<img src="assets/images/joes-fusion-logo.png" alt="Joe's Fusion">
 		</div>
 
         <div class="top-actions ta-spacing">
@@ -145,6 +158,7 @@
 				<a href="bio.php" class="btn-link">More about {{Name}}</a>
 			</div>
 		</section>
+		
 	</div>
 	<!-- end/ WRAPPER Content -->
 

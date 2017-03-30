@@ -90,6 +90,10 @@
 			</div>
 		</div>
 
+		<div class="content-end">
+			<img src="assets/images/joes-fusion-logo.png" alt="Joe's Fusion">
+		</div>
+
         <div class="top-actions ta-spacing">
             <div class="ta-wrapper" id="sec-join-us">
                 <div class="ta-text">

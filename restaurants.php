@@ -26,7 +26,7 @@
 			</div>
 		</div>
 
-		<div id="restaurant-map">
+		<div id="restaurant-map-general">
 			<iframe src="https://www.google.com/maps/d/embed?mid=1Lt4XpeNXzjrPVkLjhNesRJ_nylE"></iframe>
 		</div>
 

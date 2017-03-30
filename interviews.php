@@ -24,7 +24,7 @@
 			<div class="li-content">
 				<h1>Name of the person</h1>
 				<p>Tongue cupim prosciutto biltong, shankle porchetta ribeye. Turkey pork loin venison, andouille spare ribs flank sirloin bresaola pig.</p>
-				<a href="javascript:void(0);">Read interview</a>
+				<a href="internal-interview.php">Read interview</a>
 			</div>
 		</div>
 
@@ -32,105 +32,105 @@
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
 
 			<div class="content-container">
 				<div class="content-thumb">
-					<a href="javascript:void(0);"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
+					<a href="internal-interview.php"><img src="assets/images/_examples/search-thumb.jpg" alt="Article title"></a>
 				</div>
 				<div class="content-text">
-					<a href="javascript:void(0);"><h1>Title lorem ipsum dolor sit amet</h1></a>
+					<a href="internal-interview.php"><h1>Title lorem ipsum dolor sit amet</h1></a>
 					<p>Andouille prosciutto chuck. Bacon ham hock t-bone short ribs picanha beef ribs meatloaf, venison shank pork.</p>
-					<a href="javascript:void(0);" class="content-btn">Read on</a>
+					<a href="internal-interview.php" class="content-btn">Read on</a>
 					<div class="content-metas">
 						<p><span class="content-date">September 12, 2017</span></p>
-						<p><a href="javascript:void(0);">Category 1</a>, <a href="javascript:void(0);">Category 2</a>, <a href="javascript:void(0);">Category 3</a></p>
+						<p><a href="search.php">Category 1</a>, <a href="search.php">Category 2</a>, <a href="search.php">Category 3</a></p>
 					</div>
 				</div>
 			</div>
